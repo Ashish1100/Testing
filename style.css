@@ -113,7 +113,7 @@ body{
         font-size: 15px;
       }
       
-      /* mobile styles */
+      /* desktop styles */
       @media only screen and (max-width: 540px) { 
         .menu-container {
           flex-direction: column;
@@ -139,8 +139,9 @@ body{
           right: -300px;
           top: 0;
           margin: -20px;
+          margin-bottom:0px;
           padding: 75px 50px 50px;
-          background: #87e986;
+          background: #24262b;
           -webkit-font-smoothing: antialiased;
           /* to stop flickering of text in safari */
           transform-origin: 0% 0%;
@@ -153,7 +154,7 @@ body{
         }
       }
       
-      /* desktop styles */
+      /* mobile styles */
       @media only screen and (min-width: 100px) { 
         .menu-container {
           width: 100%;
