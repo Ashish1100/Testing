@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .prompt {
+    /* make the backgronud full screen */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    
+    /* make it show on top of all other elements */
+    z-index: 999;
+    
+    /* hide the prompt by default */
+    visibility: hidden;
+    opacity: 0;
+    
+    transition: .6s opacity, .6s visibility;
+  }
+  
+  .prompt__form {
+    /* center the prompt window */
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    width: 400px;
+    padding: 1em;
+    
+    background: #6be469;
+  }
+  
+  .prompt--show {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .prompt__input {
+    width: 80%;
+    float: left;
+  }
+  
+  .prompt__submit {
+    width: 20%;
+    float: left;
+
+  }
+  body{
+    background-image:url(front_img.png) ;
+  }
+  .sia_r{
+    color: #87e986;
+    font-family: cursive;
+    text-align: center;
+    padding-top: 90px;
+  }
+  .sia{
+    text-decoration: none;
+    color: #87e986;
+  }
