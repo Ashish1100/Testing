@@ -114,7 +114,7 @@ body{
       }
       
       /* mobile styles */
-      @media only screen and (max-width: 100px) { 
+      @media only screen and (max-width: 540px) { 
         .menu-container {
           flex-direction: column;
           align-items: flex-end;
