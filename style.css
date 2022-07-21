@@ -59,8 +59,8 @@ body{
         margin: 0;
         position: absolute;
         cursor: pointer;
-        opacity: 0; /* hide this */
-        z-index: 2; /* and place it over the hamburger */
+        opacity: 0; 
+        z-index: 2;
         -webkit-touch-callout: none;
       }
       
@@ -140,7 +140,7 @@ body{
           top: 0;
           margin: -20px;
           padding: 75px 50px 50px;
-          background: #cdcdcd;
+          background: #87e986;
           -webkit-font-smoothing: antialiased;
           /* to stop flickering of text in safari */
           transform-origin: 0% 0%;
